@@ -35,9 +35,8 @@ for vim.
 * [Command-T](https://github.com/wincent/Command-T) - Command-T plug-in for Vim
 
 > Notice that Command-T needs manual installation. Check 
-> the [README](https://github.com/wincent/Command-T/blob/master/README.txt) 
-> for more details
+> the [README](https://github.com/wincent/Command-T) for more details
 
-## VIM mappings
+## Custom VIM mappings
 
 * `<leader>n` : Toggle nerd tree
