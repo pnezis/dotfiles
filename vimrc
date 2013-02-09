@@ -20,6 +20,7 @@ Bundle 'tpope/vim-fugitive'
 
 " File management plugins
 Bundle 'scrooloose/nerdtree'
+Bundle 'wincent/Command-T'
 
 filetype plugin indent on     " required!
 

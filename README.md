@@ -13,20 +13,30 @@
 
 ### Color schemes & UI Plugins
 
-* [Molokai color scheme](https://github.com/tomasr/molokai) - Molokai is a Vim port of the monokai theme for TextMate originally created by Wimer Hazenberg.
-* [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility. 
+* [Molokai color scheme](https://github.com/tomasr/molokai) - Molokai is a Vim
+port of the monokai theme for TextMate originally created by Wimer Hazenberg.
+* [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim 
+statusline utility. 
 
 ### Text manipulation plugins
 
-* [Vim Surround](https://github.com/tpope/vim-surround) - The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+* [Vim Surround](https://github.com/tpope/vim-surround) - The plugin provides 
+mappings to easily delete, change and add such surroundings in pairs.
 
 ### Version Control System integration plugins
 
-* [Vim Fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so awesome, it should be illegal
+* [Vim Fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so 
+awesome, it should be illegal
 
 ### File management plugins
 
-* [NErdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for vim.
+* [NErdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin 
+for vim.
+* [Command-T](https://github.com/wincent/Command-T) - Command-T plug-in for Vim
+
+> Notice that Command-T needs manual installation. Check 
+> the [README](https://github.com/wincent/Command-T/blob/master/README.txt) 
+> for more details
 
 ## VIM mappings
 

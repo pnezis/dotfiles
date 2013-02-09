@@ -4,3 +4,4 @@ bundle/vim-powerline
 bundle/vim-surround
 bundle/vim-fugitive
 bundle/nerdtree
+bundle/Command-T
