@@ -11,3 +11,8 @@
 
 
 ## Vim Plugins
+
+### Color schemes & UI Plugins
+
+* [Molokai color scheme](https://github.com/tomasr/molokai)
+* [Powerline](https://github.com/Lokaltog/vim-powerline)
