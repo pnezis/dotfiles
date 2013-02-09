@@ -27,3 +27,7 @@
 ### File management plugins
 
 * [NErdTree](https://github.com/scrooloose/nerdtree)
+
+## VIM mappings
+
+* `<leader>n` : Toggle nerd tree
