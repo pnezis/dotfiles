@@ -12,8 +12,11 @@ Bundle 'gmarik/vundle'
 Bundle 'tomasr/molokai'
 Bundle 'Lokaltog/vim-powerline'
 
-" vim-scripts repos
-" non github repos
+" Text manipulation plugins
+Bundle 'tpope/vim-surround' 
+
+" Version Control Systems integration plugins
+Bundle 'tpope/vim-fugitive'
 
 filetype plugin indent on     " required!
 

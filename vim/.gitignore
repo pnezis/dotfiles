@@ -1,2 +1,5 @@
+# Ignore plugins folders since they are handled by vundle
 bundle/molokai
 bundle/vim-powerline
+bundle/vim-surround
+bundle/vim-fugitive
