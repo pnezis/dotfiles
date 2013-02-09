@@ -26,6 +26,7 @@ filetype plugin indent on     " required!
 
 " Disable vi-compatibility - Necessary for powerline plugin
 set nocompatible
+
 " Set UTF-8 encoding in order to correctly show Glyphs in powerline
 set encoding=utf-8
 
@@ -39,13 +40,23 @@ set ruler          " Ruler on
 set number         " Line numbers on
 set nowrap         " Line wrapping off
 set laststatus=2   " Always show the statusline
-set cmdheight=2    " Make the command area two lines high
+set cmdheight=1    " Make the command area two lines high
 set noshowmode     " Don't show the mode since Powerline shows it
 set title          " Set the title of the window in the terminal to the file
 if exists('+colorcolumn')
   set colorcolumn=80 " Color the 80th column differently as a wrapping guide
 endif
 
+" Searching
+set ignorecase " Case insensitive search
+set smartcase  " Non-case sensitive search
+set incsearch
+set hlsearch
+
+" Visual
+set showmatch   " Show matching brackets.
+set matchtime=2 " How many tenths of a second to blink
+set scrolloff=5 " Scroll 5 lines before the border
 
 " Navigating through windows using Alt+Arrow keys
 nmap <silent> <A-Up> :wincmd k<CR>
