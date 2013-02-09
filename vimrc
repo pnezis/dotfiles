@@ -18,6 +18,9 @@ Bundle 'tpope/vim-surround'
 " Version Control Systems integration plugins
 Bundle 'tpope/vim-fugitive'
 
+" File management plugins
+Bundle 'scrooloose/nerdtree'
+
 filetype plugin indent on     " required!
 
 " Disable vi-compatibility - Necessary for powerline plugin

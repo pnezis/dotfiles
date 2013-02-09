@@ -23,3 +23,7 @@
 ### Version Control System integration plugins
 
 * [Vim Fugitive](https://github.com/tpope/vim-fugitive)
+
+### File management plugins
+
+* [NErdTree](https://github.com/scrooloose/nerdtree)
