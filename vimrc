@@ -25,14 +25,26 @@ filetype plugin indent on     " required!
 
 " Disable vi-compatibility - Necessary for powerline plugin
 set nocompatible
-" Always show the status line
-set laststatus=2
 " Set UTF-8 encoding in order to correctly show Glyphs in powerline
 set encoding=utf-8
 
 " Force VIM to use 256 color terminal in order to correctly support the
 " color scheme
 set t_Co=256
+
+" UI Configuration
+
+set ruler          " Ruler on
+set number         " Line numbers on
+set nowrap         " Line wrapping off
+set laststatus=2   " Always show the statusline
+set cmdheight=2    " Make the command area two lines high
+set noshowmode     " Don't show the mode since Powerline shows it
+set title          " Set the title of the window in the terminal to the file
+if exists('+colorcolumn')
+  set colorcolumn=80 " Color the 80th column differently as a wrapping guide
+endif
+
 
 " Navigating through windows using Alt+Arrow keys
 nmap <silent> <A-Up> :wincmd k<CR>
