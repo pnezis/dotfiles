@@ -43,3 +43,8 @@ nmap <silent> <A-Right> :wincmd l<CR>
 " Powerline fancy status bar
 let g:Powerline_symbols = 'fancy'
 color molokai
+
+
+" Plugin mappings
+map <leader>n :NERDTreeToggle<CR><CR>
+
