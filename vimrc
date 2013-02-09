@@ -8,8 +8,9 @@
  " required! 
  Bundle 'gmarik/vundle'
 
- " color schemes
+ " color schemes & UI plugins
  Bundle 'tomasr/molokai'
+ Bundle 'Lokaltog/vim-powerline'
 
  " vim-scripts repos
  " non github repos
@@ -33,5 +34,6 @@
  nmap <silent> <A-Left> :wincmd h<CR>
  nmap <silent> <A-Right> :wincmd l<CR>
 
-
+ " Powerline fancy status bar
+ let g:Powerline_symbols = 'fancy'
  color molokai
