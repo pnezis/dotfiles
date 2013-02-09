@@ -8,19 +8,11 @@
  " required! 
  Bundle 'gmarik/vundle'
 
- " original repos on github
- Bundle 'tpope/vim-fugitive'
- Bundle 'Lokaltog/vim-easymotion'
- Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
- Bundle 'tpope/vim-rails.git'
-
  " color schemes
  Bundle 'tomasr/molokai'
 
  " vim-scripts repos
  " non github repos
- Bundle 'git://git.wincent.com/command-t.git'
- " ...
 
  filetype plugin indent on     " required!
 
