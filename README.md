@@ -13,20 +13,20 @@
 
 ### Color schemes & UI Plugins
 
-* [Molokai color scheme](https://github.com/tomasr/molokai)
-* [Powerline](https://github.com/Lokaltog/vim-powerline)
+* [Molokai color scheme](https://github.com/tomasr/molokai) - Molokai is a Vim port of the monokai theme for TextMate originally created by Wimer Hazenberg.
+* [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility. 
 
 ### Text manipulation plugins
 
-* [Vim Surround](https://github.com/tpope/vim-surround)
+* [Vim Surround](https://github.com/tpope/vim-surround) - The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
 ### Version Control System integration plugins
 
-* [Vim Fugitive](https://github.com/tpope/vim-fugitive)
+* [Vim Fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so awesome, it should be illegal
 
 ### File management plugins
 
-* [NErdTree](https://github.com/scrooloose/nerdtree)
+* [NErdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for vim.
 
 ## VIM mappings
 
