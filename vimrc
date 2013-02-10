@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 " color schemes & UI plugins
 Bundle 'tomasr/molokai'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'vim-scripts/ZoomWin'
 
 " Text manipulation plugins
 Bundle 'tpope/vim-surround' 
@@ -75,3 +76,4 @@ color molokai
 " Plugin mappings
 map <leader>n :NERDTreeToggle<CR><CR>
 nmap <leader>p :TagbarToggle<CR>
+nmap <leader>z :ZoomWin<CR>

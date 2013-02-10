@@ -17,6 +17,8 @@
 port of the monokai theme for TextMate originally created by Wimer Hazenberg.
 * [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim 
 statusline utility. 
+* [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out of windows 
+(toggle between one window and multi-window)
 
 > It is necessary to have `vim-gnome` installed for patched fonts.
 
@@ -47,3 +49,4 @@ tags in a window, ordered by class etc.
 
 * `<leader>n` : Toggle nerd tree
 * `<leader>p` : Toggle Tag Bar
+* `<leader>z` : Zoom Win
