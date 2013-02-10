@@ -14,4 +14,4 @@ nmap <silent> <A-Right> :wincmd l<CR>
 nmap <silent> <C-Up> <c-w>-
 nmap <silent> <C-Down> <c-w>+
 nmap <silent> <C-Left> <c-w><
-nmap <silent> <C--Right> <c-w>>
+nmap <silent> <C-Right> <c-w>>

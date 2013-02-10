@@ -1,4 +1,4 @@
-# Yet Another Dotfiles configuration
+# Yet Another Dotfiles Repository
 
 ## Screenshots
 ![Screenshot 1](https://github.com/pnezis/dotfiles/raw/master/screenshots/vim.png)
@@ -18,10 +18,12 @@
 port of the monokai theme for TextMate originally created by Wimer Hazenberg.
 * [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim 
 statusline utility. 
+
+> It is necessary to have `vim-gnome` installed for patched fonts.
+
 * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out of windows 
 (toggle between one window and multi-window)
 
-> It is necessary to have `vim-gnome` installed for patched fonts.
 
 ### Text manipulation plugins
 
