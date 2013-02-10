@@ -18,6 +18,8 @@ port of the monokai theme for TextMate originally created by Wimer Hazenberg.
 * [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim 
 statusline utility. 
 
+> It is necessary to have `vim-gnome` installed for patched fonts.
+
 ### Text manipulation plugins
 
 * [Vim Surround](https://github.com/tpope/vim-surround) - The plugin provides 
