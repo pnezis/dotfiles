@@ -20,6 +20,7 @@ set title          " Set the title of the window in the terminal to the file
 if exists('+colorcolumn')
   set colorcolumn=80 " Color the 80th column differently as a wrapping guide
 endif
+set cursorline     " Highlight current line
 
 " Searching
 set ignorecase " Case insensitive search
