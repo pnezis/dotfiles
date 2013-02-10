@@ -1,6 +1,7 @@
 # Yet Another Dotfiles configuration
 
 ## Screenshots
+![Screenshot 1](https://github.com/pnezis/dotfiles/raw/master/screenshots/vim.png)
 
 ## Installation
 
@@ -57,3 +58,5 @@ tags in a window, ordered by class etc.
 * `<leader>n` : Toggle nerd tree
 * `<leader>p` : Toggle Tag Bar
 * `<leader>z` : Zoom Win
+* `vv` : Vertical window split
+* `ss` : Horizontal window split
