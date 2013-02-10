@@ -65,6 +65,7 @@ nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
 " Powerline fancy status bar
+set guifont=Menlo\ for\ Powerline:h9
 let g:Powerline_symbols = 'fancy'
 color molokai
 
