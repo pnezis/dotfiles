@@ -24,6 +24,8 @@ statusline utility.
 
 * [Vim Surround](https://github.com/tpope/vim-surround) - The plugin provides 
 mappings to easily delete, change and add such surroundings in pairs.
+* [NERDCommenter](https://github.com/scrooloose/nerdcommenter) - Vim plugin for 
+intensely orgasmic commenting 
 
 ### Version Control System integration plugins
 

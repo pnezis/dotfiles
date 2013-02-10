@@ -14,6 +14,7 @@ Bundle 'Lokaltog/vim-powerline'
 
 " Text manipulation plugins
 Bundle 'tpope/vim-surround' 
+Bundle 'scrooloose/nerdcommenter'
 
 " Version Control Systems integration plugins
 Bundle 'tpope/vim-fugitive'

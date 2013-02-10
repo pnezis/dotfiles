@@ -5,3 +5,4 @@ bundle/vim-surround
 bundle/vim-fugitive
 bundle/nerdtree
 bundle/Command-T
+bundle/nerdcommenter
