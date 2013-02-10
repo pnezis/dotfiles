@@ -9,3 +9,4 @@ bundle/nerdcommenter
 bundle/ZoomWin
 bundle/tagbar
 bundle/syntastic
+bundle/vim-indent-guides

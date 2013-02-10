@@ -54,6 +54,8 @@ for vim.
 tags in a window, ordered by class etc.
 * [Syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks
  for vim. 
+* [Vim Indent Guides](https://github.com/mutewinter/vim-indent-guides) - A Vim 
+plugin for visually displaying indent levels in code
 
 ## Custom VIM mappings
 

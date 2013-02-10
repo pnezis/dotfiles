@@ -25,5 +25,6 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'wincent/Command-T'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
+Bundle 'mutewinter/vim-indent-guides'
 
 " Language Specific plugins
