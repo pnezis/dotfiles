@@ -24,6 +24,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'wincent/Command-T'
 Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required!
 
@@ -67,6 +68,12 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
+" Resize windows using Ctrl+Arrow keys
+nmap <silent> <C-Up> <c-w>-
+nmap <silent> <C-Down> <c-w>+
+nmap <silent> <C-Left> <c-w><
+nmap <silent> <C--Right> <c-w>>
+
 " Powerline fancy status bar
 set guifont=Menlo\ for\ Powerline:h9
 let g:Powerline_symbols = 'fancy'
@@ -74,6 +81,6 @@ color molokai
 
 
 " Plugin mappings
-map <leader>n :NERDTreeToggle<CR><CR>
+nmap <leader>n :NERDTreeToggle<CR><CR>
 nmap <leader>p :TagbarToggle<CR>
 nmap <leader>z :ZoomWin<CR>

@@ -49,7 +49,8 @@ for vim.
 
 * [Tagbar](https://github.com/majutsushi/tagbar) - Vim plugin that displays 
 tags in a window, ordered by class etc.
-
+* [Syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks
+ for vim. 
 
 ## Custom VIM mappings
 
