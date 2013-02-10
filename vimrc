@@ -19,9 +19,10 @@ Bundle 'scrooloose/nerdcommenter'
 " Version Control Systems integration plugins
 Bundle 'tpope/vim-fugitive'
 
-" File management plugins
+" File/Code management plugins
 Bundle 'scrooloose/nerdtree'
 Bundle 'wincent/Command-T'
+Bundle 'majutsushi/tagbar'
 
 filetype plugin indent on     " required!
 
@@ -73,4 +74,4 @@ color molokai
 
 " Plugin mappings
 map <leader>n :NERDTreeToggle<CR><CR>
-
+nmap <leader>p :TagbarToggle<CR>

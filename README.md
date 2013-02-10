@@ -32,11 +32,13 @@ intensely orgasmic commenting
 * [Vim Fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so 
 awesome, it should be illegal
 
-### File management plugins
+### File & Code management plugins
 
 * [NErdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin 
 for vim.
 * [Command-T](https://github.com/wincent/Command-T) - Command-T plug-in for Vim
+* [Tagbar](https://github.com/majutsushi/tagbar) - Vim plugin that displays 
+tags in a window, ordered by class etc.
 
 > Notice that Command-T needs manual installation. Check 
 > the [README](https://github.com/wincent/Command-T) for more details
@@ -44,3 +46,4 @@ for vim.
 ## Custom VIM mappings
 
 * `<leader>n` : Toggle nerd tree
+* `<leader>p` : Toggle Tag Bar
