@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <gconf>
 	<entry name="use_theme_background" mtime="1319393843" type="bool" value="false"/>
-	<entry name="bold_color" mtime="1360619449" type="string">
+	<entry name="bold_color" mtime="1360619933" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="scrollbar_position" mtime="1360619449" type="string">
+	<entry name="scrollbar_position" mtime="1360619933" type="string">
 		<stringvalue>hidden</stringvalue>
 	</entry>
-	<entry name="use_theme_colors" mtime="1360619449" type="bool" value="false"/>
-	<entry name="background_darkness" mtime="1360619449" type="float" value="0.9372289776802063"/>
-	<entry name="background_type" mtime="1360619449" type="string">
+	<entry name="use_theme_colors" mtime="1360619933" type="bool" value="false"/>
+	<entry name="background_darkness" mtime="1360619933" type="float" value="0.9372289776802063"/>
+	<entry name="background_type" mtime="1360619933" type="string">
 		<stringvalue>transparent</stringvalue>
 	</entry>
-	<entry name="visible_name" mtime="1360619449" type="string">
+	<entry name="visible_name" mtime="1360619933" type="string">
 		<stringvalue>Default</stringvalue>
 	</entry>
-	<entry name="alternate_screen_scroll" mtime="1360619449" type="bool" value="true"/>
-	<entry name="palette" mtime="1360619449" type="string">
+	<entry name="alternate_screen_scroll" mtime="1360619933" type="bool" value="true"/>
+	<entry name="palette" mtime="1360619933" type="string">
 		<stringvalue>#000000000000:#E5E522212221:#A6A6E3E22D2D:#FCFC95951E1D:#C4C48D8DFFFF:#FAF925257373:#6767D9D8F0EF:#F2F1F2F1F2F1:#4CCC4CCC4CCC:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#46458281B4AE:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
 	</entry>
-	<entry name="background_color" mtime="1360619449" type="string">
+	<entry name="background_color" mtime="1360619933" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="foreground_color" mtime="1360619449" type="string">
+	<entry name="foreground_color" mtime="1360619933" type="string">
 		<stringvalue>#FFFFFFFFFFFF</stringvalue>
 	</entry>
 </gconf>
