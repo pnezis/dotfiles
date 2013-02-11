@@ -16,6 +16,7 @@ Bundle 'vim-scripts/ZoomWin'
 " Text manipulation plugins
 Bundle 'tpope/vim-surround' 
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'godlygeek/tabular'
 
 " Version Control Systems integration plugins
 Bundle 'tpope/vim-fugitive'
@@ -26,5 +27,8 @@ Bundle 'wincent/Command-T'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
 Bundle 'mutewinter/vim-indent-guides'
+
+" Other plugins
+Bundle 'vim-scripts/vimwiki'
 
 " Language Specific plugins

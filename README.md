@@ -31,6 +31,8 @@ statusline utility.
 mappings to easily delete, change and add such surroundings in pairs.
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter) - Vim plugin for 
 intensely orgasmic commenting 
+* [Tabular](https://github.com/godlygeek/tabular) - Vim script for text 
+filtering and alignment 
 
 ### Version Control System integration plugins
 
@@ -56,6 +58,10 @@ tags in a window, ordered by class etc.
  for vim. 
 * [Vim Indent Guides](https://github.com/mutewinter/vim-indent-guides) - A Vim 
 plugin for visually displaying indent levels in code
+
+### Other plugins
+
+* [Vimwiki](https://github.com/vim-scripts/vimwiki) - Personal wiki for Vim.
 
 ## Custom VIM mappings
 
