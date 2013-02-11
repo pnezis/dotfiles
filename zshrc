@@ -1,8 +1,8 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/dotfiles_old/oh-my-zsh
+ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
-ZSH_THEME="alanpeabody"
+ZSH_THEME="pnezis"
 
 # Comment this out to disable weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"

@@ -64,6 +64,8 @@ install_oh_my_zsh
 echo
 switch_to_zsh
 echo
+echo "Copying zsh theme"
+cp "$DIR/zsh/pnezis.zsh-theme" "$HOME/.oh-my-zsh/themes/pnezis.zsh-theme"
 copy_terminal_profile
 echo
 echo "Removing existing configuration files..."
