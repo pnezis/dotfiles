@@ -7,8 +7,11 @@
 
 1. `git clone http://github.com/pnezis/dotfiles.git ~/dotfiles`
 2. `cd ~/dotfiles`
-3. Run `setup.sh` to create symbolic links and install dependencies.
+3. Run `install.sh` to create symbolic links and install dependencies.
 4. Run Vim and type `:BundleInstall` to install the plugins with Vundle.
+
+> Notice that the `install` script does not keep any backup. Be careful
+> when using it. Existing configuration files will get deleted.
 
 ## Vim Plugins
 
