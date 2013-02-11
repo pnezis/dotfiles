@@ -22,3 +22,7 @@ let g:indent_guides_guide_size = 1          "one column width for indents
 " Custom colors in order to have nice looking idents in terminal
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkgray ctermbg=236
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgray ctermbg=240
+
+
+" Vim Wiki
+let g:vimwiki_ext2syntax = {}
