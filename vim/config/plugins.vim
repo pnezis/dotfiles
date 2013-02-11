@@ -29,6 +29,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'mutewinter/vim-indent-guides'
 
 " Other plugins
-Bundle 'vim-scripts/vimwiki'
+" Bundle 'vim-scripts/vimwiki'
 
 " Language Specific plugins
