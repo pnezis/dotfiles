@@ -78,7 +78,7 @@ echo "Creating symbolic links..."
 ln -s $DIR/vimrc $HOME/.vimrc
 ln -s $DIR/vim $HOME/.vim
 ln -s $DIR/zshrc $HOME/.zshrc
-ln -s $DIR/dircolors.ansi-dark $HOME/.dircolors.ansi-dark
+ln -s $DIR/dircolors.256dark $HOME/.dircolors
 echo
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status

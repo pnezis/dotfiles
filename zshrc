@@ -18,4 +18,4 @@ source $ZSH/oh-my-zsh.sh
 # export TERM=xterm-256color
 
 # Set ls colors
-eval `dircolors $HOME/.dircolors.ansi-dark`
+eval `dircolors $HOME/.dircolors`
