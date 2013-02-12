@@ -72,11 +72,13 @@ echo "Removing existing configuration files..."
 remove_file_dir $HOME/.vimrc
 remove_file_dir $HOME/.vim
 remove_file_dir $HOME/.zshrc
+remove_file_dir $HOME/.dircolors.ansi-dark
 echo
 echo "Creating symbolic links..."
 ln -s $DIR/vimrc $HOME/.vimrc
 ln -s $DIR/vim $HOME/.vim
 ln -s $DIR/zshrc $HOME/.zshrc
+ln -s $DIR/dircolors.ansi-dark $HOME/.dircolors.ansi-dark
 echo
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status

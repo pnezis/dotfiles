@@ -16,3 +16,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Define 256 Color term
 # export TERM=xterm-256color
+
+# Set ls colors
+eval `dircolors $HOME/.dircolors.ansi-dark`
