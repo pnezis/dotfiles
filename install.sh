@@ -73,4 +73,6 @@ git pull && git submodule init && git submodule update && git submodule status
 echo
 echo "Updating gnome terminala profile"
 python $DIR/molokai-terminal.py
+echo "Setting git colors"
+$DIR/gitcolors.sh
 echo "Successfully installed Dot Files. Start VIM and run :BundleInstall"
