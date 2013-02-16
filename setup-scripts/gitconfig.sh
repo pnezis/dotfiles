@@ -1,6 +1,19 @@
 #!/bin/bash
 #
-# Set sexy global git colors
+# Global git config
+
+user () {
+  printf "\r  [ \033[0;33m??\033[0m ] $1 "
+}
+
+# User config
+user ' - What is your git author name?'
+read -e git_authorname
+user ' - What is your git author email?'
+read -e git_authoremail
+
+git config --global --replace-all user.name $git_authorname
+git config --global --replace-all user.email $git_authoremail
 
 # Color 
 git config --global --replace-all color.ui auto
