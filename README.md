@@ -1,7 +1,12 @@
 # Yet Another Dotfiles Repository
 
 ## Screenshots
+
+*Vim splits*
 ![Screenshot 1](https://github.com/pnezis/dotfiles/raw/master/screenshots/vim.png)
+
+*Vim & Zsh & Tmux & Tmux powerline & molokai xterm profile*
+![Screenshot 2](https://github.com/pnezis/dotfiles/raw/master/screenshots/tmux.png)
 
 ## Installation
 
