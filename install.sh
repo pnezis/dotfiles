@@ -61,12 +61,16 @@ remove_file_dir $HOME/.vimrc
 remove_file_dir $HOME/.vim
 remove_file_dir $HOME/.zshrc
 remove_file_dir $HOME/.dircolors
+remove_file_dir $HOME/.tmux
+remove_file_dir $HOME/.tmux.conf
 echo
 echo "Creating symbolic links..."
 ln -s $DIR/vimrc $HOME/.vimrc
 ln -s $DIR/vim $HOME/.vim
 ln -s $DIR/zshrc $HOME/.zshrc
 ln -s $DIR/dircolors.256dark $HOME/.dircolors
+ln -s $DIR/tmux $HOME/.tmux
+ln -s $DIR/tmux.conf $HOME/.tmux.conf
 echo
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status
