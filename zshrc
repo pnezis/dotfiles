@@ -14,11 +14,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-# Define 256 Color term
-# export TERM=xterm-256color
-
 # Free up up Ctrl-S and Ctrl-Q for use with Vim:
 stty -ixon -ixoff
 
 # Set ls colors
 eval `dircolors $HOME/.dircolors`
+
+# Force tmux to assume that terminal supports 256 colors
+alias tmux="tmux -2"
