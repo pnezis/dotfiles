@@ -49,30 +49,18 @@ switch_to_zsh ()
     fi
 }
 
-copy_terminal_profile()
-{
-    if [ -d "$HOME/.gconf/apps/gnome-terminal/profiles/Default/" ]; then
-        echo "Copying terminal profile..."
-        cp "$DIR/gconf.xml" "$HOME/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml"
-    else
-        echo "Could not copy temrinal profile!"
-    fi
-}
-
-echo
 install_oh_my_zsh
 echo
 switch_to_zsh
 echo
 echo "Copying zsh theme"
 cp "$DIR/zsh/pnezis.zsh-theme" "$HOME/.oh-my-zsh/themes/pnezis.zsh-theme"
-copy_terminal_profile
 echo
 echo "Removing existing configuration files..."
 remove_file_dir $HOME/.vimrc
 remove_file_dir $HOME/.vim
 remove_file_dir $HOME/.zshrc
-remove_file_dir $HOME/.dircolors.ansi-dark
+remove_file_dir $HOME/.dircolors
 echo
 echo "Creating symbolic links..."
 ln -s $DIR/vimrc $HOME/.vimrc
@@ -83,5 +71,6 @@ echo
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status
 echo
-echo
+echo "Updating gnome terminala profile"
+python $DIR/molokai-terminal.py
 echo "Successfully installed Dot Files. Start VIM and run :BundleInstall"
