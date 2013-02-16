@@ -105,9 +105,9 @@ echo "Updating gnome terminal profile..."
 python $DIR/setup-scripts/molokai-terminal.py
 success "Updated terminal profile"
 
-echo "Setting git colors"
-$DIR/setup-scripts/gitcolors.sh
-success "Applied global git colors config"
+echo "Setting global git configuration..."
+$DIR/setup-scripts/gitconfig.sh
+success "Applied global git configuration"
 
 echo
 echo "Successfully installed Dot Files. Restart terminal, start VIM and run :BundleInstall"
