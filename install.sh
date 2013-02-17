@@ -88,6 +88,7 @@ remove_file_dir $HOME/.zshrc
 remove_file_dir $HOME/.dircolors
 remove_file_dir $HOME/.tmux
 remove_file_dir $HOME/.tmux.conf
+remove_file_dir $HOME/.tmux-powerlinerc
 
 echo "Creating symbolic links..."
 link_files $DIR/vim $HOME/.vim
@@ -96,6 +97,7 @@ link_files $DIR/zsh/zshrc $HOME/.zshrc
 link_files $DIR/misc/dircolors.256dark $HOME/.dircolors
 link_files $DIR/tmux $HOME/.tmux
 link_files $DIR/tmux/tmux.conf $HOME/.tmux.conf
+link_files $DIR/tmux/tmux-powerlinerc $HOME/.tmux-powerlinerc
 
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status

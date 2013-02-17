@@ -29,6 +29,8 @@ statusline utility.
 
 > It is necessary to have `vim-gnome` installed for patched fonts.
 
+> After installation run `:PowerlineClearCache`.
+
 * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out of windows 
 (toggle between one window and multi-window)
 
