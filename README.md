@@ -53,6 +53,10 @@ awesome, it should be illegal
 
 * [NErdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin 
 for vim.
+
+> In order to add a file navigate to a directory, press `m` and then `a` to 
+> add a child node.
+
 * [Command-T](https://github.com/wincent/Command-T) - Command-T plug-in for Vim
 
 > Notice that Command-T needs manual installation. Check 
