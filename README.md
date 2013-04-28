@@ -72,6 +72,8 @@ tags in a window, ordered by class etc.
  for vim. 
 * [Vim Indent Guides](https://github.com/mutewinter/vim-indent-guides) - A Vim 
 plugin for visually displaying indent levels in code
+* [Ultisnips](https://github.com/SirVer/ultisnips) -  An implementation of 
+TextMates Snippets for the Vim Text Editor.
 
 ### Other plugins
 
