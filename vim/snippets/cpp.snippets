@@ -1,0 +1,34 @@
+snippet guard "Include Guard" b
+#ifndef ${1:SYMBOL_H_}
+#define $1
+	
+#endif // $1
+endsnippet
+
+snippet qo "QObject derived class" b
+class ${1:ClassName} : public QObject
+{
+	Q_OBJECT
+public:
+	$1(QObject* parent = NULL);
+	~$1();
+
+signals:
+
+private:
+	${2:// PrivateMembers}
+};
+endsnippet
+
+snippet gs "getter-setter" b
+${1:void} ${2:`!p snip.rv = snip.basename or "ClassName"`}::${3:value}() const
+{
+	return m`!p snip.rv = t[3][:1].title()+t[3][1:]`;
+}
+
+void $2::set`!p snip.rv = t[3][:1].title()+t[3][1:]`(const $1& $3)
+{
+	m`!p snip.rv = t[3][:1].title()+t[3][1:]` = $3;
+}
+endsnippet
+
