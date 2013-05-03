@@ -6,6 +6,15 @@ user () {
   printf "\r  [ \033[0;33m??\033[0m ] $1 "
 }
 
+user ' - Would you like to change global settings? [Yes]'
+read -e decision
+
+if [ "$decision" != "Yes" ]
+then
+    echo "Aborting global git configuration"
+    exit 0
+fi
+
 # User config
 user ' - What is your git author name?'
 read -e git_authorname
