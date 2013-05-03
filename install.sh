@@ -103,6 +103,10 @@ echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status
 success "Updated repository and submodules"
 
+echo "Installing vim plugins..."
+vim +BundleInstall +qall
+success "Installed vim plugins"
+
 echo "Updating gnome terminal profile..."
 python $DIR/setup-scripts/molokai-terminal.py
 success "Updated terminal profile"
