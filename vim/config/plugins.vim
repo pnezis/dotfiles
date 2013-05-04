@@ -17,7 +17,8 @@ Bundle 'vim-scripts/ZoomWin'
 Bundle 'tpope/vim-surround' 
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'godlygeek/tabular'
-
+Bundle 'Lokaltog/vim-easymotion'
+'
 " Version Control Systems integration plugins
 Bundle 'tpope/vim-fugitive'
 
@@ -34,4 +35,3 @@ Bundle "fholgado/minibufexpl.vim"
 " Other plugins
 Bundle 'vim-scripts/vimwiki'
 
-" Language Specific plugins
