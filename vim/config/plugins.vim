@@ -28,12 +28,8 @@ Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
 Bundle 'mutewinter/vim-indent-guides'
 
-" Snipmate, and dependencies
-"Bundle "MarcWeber/vim-addon-mw-utils"
-"Bundle "tomtom/tlib_vim"
-"Bundle "honza/vim-snippets"
-"Bundle "garbas/vim-snipmate"
 Bundle "SirVer/ultisnips"
+Bundle "Raimondi/delimitMate"
 
 " Other plugins
 Bundle 'vim-scripts/vimwiki'
