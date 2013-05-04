@@ -66,8 +66,8 @@ set listchars+=precedes:<       " The character to show in the last column
 set foldlevelstart=0
 
 " Space to toggle folds.
-nnoremap <Space> za
-vnoremap <Space> za
+nnoremap <cr> za
+vnoremap <cr> za
 
 " Make zO recursively open whatever top level fold we're in, no matter where the
 " cursor happens to be.
