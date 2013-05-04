@@ -107,6 +107,14 @@ echo "Installing vim plugins..."
 vim +BundleInstall +qall
 success "Installed vim plugins"
 
+MINIBUF_DIR=$DIR/vim/bundle/minibufexpl.vim
+if [ -d "$MINIBUF_DIR" ]; then
+    echo "Switching to develop branch for minibufexpl..."
+    cd "$MINIBUF_DIR"
+    git checkout -b develop origin/develop
+    cd $DIR
+fi
+
 echo "Updating gnome terminal profile..."
 python $DIR/setup-scripts/molokai-terminal.py
 success "Updated terminal profile"

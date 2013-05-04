@@ -27,9 +27,9 @@ Bundle 'wincent/Command-T'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
 Bundle 'mutewinter/vim-indent-guides'
-
 Bundle "SirVer/ultisnips"
 Bundle "Raimondi/delimitMate"
+Bundle "fholgado/minibufexpl.vim"
 
 " Other plugins
 Bundle 'vim-scripts/vimwiki'

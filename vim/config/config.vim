@@ -21,6 +21,7 @@ if exists('+colorcolumn')
   set colorcolumn=80 " Color the 80th column differently as a wrapping guide
 endif
 set cursorline     " Highlight current line
+set showtabline=0  " Do not show tabline. We use minibufexpl
 
 " Searching
 set ignorecase " Case insensitive search
