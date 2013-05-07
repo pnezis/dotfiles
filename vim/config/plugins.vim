@@ -35,3 +35,5 @@ Bundle "fholgado/minibufexpl.vim"
 " Other plugins
 Bundle 'vim-scripts/vimwiki'
 
+" Specific language plugins
+Bundle "vim-scripts/a.vim"
