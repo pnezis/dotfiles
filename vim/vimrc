@@ -6,6 +6,9 @@ filetype plugin indent on     " required!
 " VIM Configuration
 source ~/.vim/config/config.vim
 
+" Custom Functions
+source ~/.vim/config/functions.vim
+
 " VIM Mappings
 source ~/.vim/config/mappings.vim
 
