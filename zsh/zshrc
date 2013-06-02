@@ -22,3 +22,6 @@ eval `dircolors $HOME/.dircolors`
 
 # Force tmux to assume that terminal supports 256 colors
 alias tmux="tmux -2"
+
+# Make vim default editor
+export EDITOR="vim"
