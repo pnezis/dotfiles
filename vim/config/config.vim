@@ -6,6 +6,7 @@ set encoding=utf-8
 "set visualbell
 "set splitbelow    " Split below current window
 "set splitright    " Split right of current window
+set backspace=2    " Fix backspase issues. Make it work like other apps.
 " }}}
 
 " Color Scheme {{{
@@ -14,6 +15,7 @@ set encoding=utf-8
 set t_Co=256
 set background=dark
 color molokai
+syntax on
 " }}}
 
 " UI Configuration {{{
