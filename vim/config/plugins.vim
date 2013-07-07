@@ -37,3 +37,4 @@ Bundle 'vim-scripts/vimwiki'
 
 " Specific language plugins
 Bundle "vim-scripts/a.vim"
+Bundle "ap/vim-css-color"
