@@ -6,6 +6,7 @@ vim/bundle/molokai
 vim/bundle/vim-airline
 vim/bundle/vim-surround
 vim/bundle/vim-fugitive
+vim/bundle/vim-webdevicons
 vim/bundle/nerdtree
 vim/bundle/Command-T
 vim/bundle/nerdcommenter

@@ -34,6 +34,10 @@ statusline utility.
 `install.sh` script. Also **do not forget to change the default to a powerline
 font in the terminal's properties.**
 
+* [WebDevicons](https://github.com/ryanoasis/vim-webdevicons) amazing icons for
+the powerline and the nerdtreee that indicate the file type. A patched font has
+to be installed as well. Read the installation instructions at the plugin 
+homepage for more details.
 
 * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out of windows 
 (toggle between one window and multi-window)

@@ -12,6 +12,7 @@ Plugin 'gmarik/vundle'
 Plugin 'tomasr/molokai'
 Plugin 'bling/vim-airline'
 Plugin 'vim-scripts/ZoomWin'
+Plugin 'ryanoasis/vim-webdevicons'
 
 " Text manipulation plugins
 Plugin 'tpope/vim-surround' 
