@@ -10,7 +10,7 @@ Plugin 'gmarik/vundle'
 
 " color schemes & UI plugins
 Plugin 'tomasr/molokai'
-Plugin 'Lokaltog/vim-powerline'
+Plugin 'bling/vim-airline'
 Plugin 'vim-scripts/ZoomWin'
 
 " Text manipulation plugins

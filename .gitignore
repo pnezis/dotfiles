@@ -3,7 +3,7 @@
 
 # Ignore plugins folders since they are handled by vundle
 vim/bundle/molokai
-vim/bundle/vim-powerline
+vim/bundle/vim-airline
 vim/bundle/vim-surround
 vim/bundle/vim-fugitive
 vim/bundle/nerdtree

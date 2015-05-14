@@ -24,12 +24,16 @@
 
 * [Molokai color scheme](https://github.com/tomasr/molokai) - Molokai is a Vim
 port of the monokai theme for TextMate originally created by Wimer Hazenberg.
-* [Powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim 
+* [Airline](https://github.com/bling/vim-airline) - The ultimate vim 
 statusline utility. 
 
 > It is necessary to have `vim-gnome` installed for patched fonts.
 
-> After installation run `:PowerlineClearCache`.
+> In order to have working patched fonts clone the 
+[powerline-fonts](https://github.com/powerline/fonts) repository and run the
+`install.sh` script. Also **do not forget to change the default to a powerline
+font in the terminal's properties.**
+
 
 * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out of windows 
 (toggle between one window and multi-window)
