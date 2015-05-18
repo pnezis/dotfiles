@@ -19,6 +19,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'godlygeek/tabular'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Valloric/YouCompleteMe'
 
 " Version Control Systems integration plugins
 Plugin 'tpope/vim-fugitive'

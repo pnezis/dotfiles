@@ -82,6 +82,11 @@ tags in a window, ordered by class etc.
 plugin for visually displaying indent levels in code
 * [Ultisnips](https://github.com/SirVer/ultisnips) -  An implementation of 
 TextMates Snippets for the Vim Text Editor.
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - The ultimate
+autocompletion plugin. 
+
+> Notice that YouCompleteMe needs manual installation. Check the 
+> [README](https://github.com/Valloric/YouCompleteMe) for more details.
 
 ### Other plugins
 
