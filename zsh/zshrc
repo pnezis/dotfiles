@@ -25,3 +25,18 @@ alias tmux="tmux -2"
 
 # Make vim default editor
 export EDITOR="vim"
+
+# Use Ctrl-Z to switch back to the last background job
+# All credits here: http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
+fancy-ctrl-z () {
+    if [[ $#BUFFER -eq 0 ]]; then
+        BUFFER="fg"
+        zle accept-line
+    else
+        zle push-input
+        zle clear-screen
+    fi
+}
+
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
