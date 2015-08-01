@@ -1,3 +1,8 @@
+if [[ `uname` == 'Darwin' ]]; then
+    PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+    MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+fi
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -22,6 +27,11 @@ eval `dircolors $HOME/.dircolors`
 
 # Force tmux to assume that terminal supports 256 colors
 alias tmux="tmux -2"
+
+# Switch to MacVim if in OsX
+if [[ `uname` == 'Darwin' ]]; then
+    alias vim="mvim -v"
+fi
 
 # Make vim default editor
 export EDITOR="vim"
