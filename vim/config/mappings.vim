@@ -27,6 +27,19 @@ if &term =~ '^screen'
     map OB <A-Down>
 endif
 
+if has('mac')
+    " Arrows
+    map [B <Down>
+    map [A <Up>
+    map [D <Left>
+    map [C <Right>
+
+    " Alt + Arrows
+    map [C <A-Right>
+    map [D <A-Left>
+    map [A <A-Up>
+    map [B <A-Down>
+endif
 
 " Easy window splits
 nnoremap <silent> vv <C-w>v
