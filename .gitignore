@@ -1,5 +1,6 @@
 # Temporary files
 *.swp
+.DS_Store
 
 # Ignore plugins folders since they are handled by vundle
 vim/bundle/molokai
