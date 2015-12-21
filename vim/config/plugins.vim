@@ -39,6 +39,9 @@ Plugin 'vim-scripts/vimwiki'
 
 " Specific language plugins
 Plugin 'vim-scripts/a.vim'
+
+" Web development plugins
 Plugin 'ap/vim-css-color'
+Plugin 'tristen/vim-sparkup'
 
 call vundle#end()
