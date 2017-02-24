@@ -40,6 +40,7 @@ Plugin 'vim-scripts/vimwiki'
 
 " Specific language plugins
 Plugin 'vim-scripts/a.vim'
+Plugin 'python-mode/python-mode'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
