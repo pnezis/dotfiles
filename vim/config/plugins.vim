@@ -28,6 +28,7 @@ Plugin 'tpope/vim-fugitive'
 " File/Code management plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'wincent/Command-T'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/syntastic'

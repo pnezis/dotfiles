@@ -11,6 +11,7 @@ vim/bundle/vim-fugitive
 vim/bundle/vim-webdevicons
 vim/bundle/nerdtree
 vim/bundle/vim-nerdtree-tabs
+vim/bundle/nerdtree-git-plugin
 vim/bundle/Command-T
 vim/bundle/nerdcommenter
 vim/bundle/ZoomWin
@@ -21,7 +22,6 @@ vim/bundle/tabular
 vim/bundle/vimwiki
 vim/bundle/ultisnips
 vim/bundle/delimitMate
-vim/bundle/minibufexpl.vim
 vim/bundle/vim-easymotion
 vim/bundle/a.vim
 vim/bundle/vim-css-color
