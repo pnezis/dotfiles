@@ -5,3 +5,6 @@ let NERDTreeMapOpenSplit='s'
 let NERDTreeMapOpenVSplit='v'
 
 let NERDTreeDirArrows=1
+
+" Ignore specific files in NERDTree
+let NERDTreeIgnore=['\.pyc$', '\~$']
