@@ -12,6 +12,9 @@ source ~/.vim/config/functions.vim
 " VIM Mappings
 source ~/.vim/config/mappings.vim
 
+" Custom file settings
+source ~/.vim/config/file_settings.vim
+
 " Plugins configuration
 source ~/.vim/config/plugins_config.vim
 
