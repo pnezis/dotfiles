@@ -53,3 +53,5 @@ zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
 
 # Aliases
+export WORKON_HOME=~/code/envs
+source /usr/local/bin/virtualenvwrapper.sh
