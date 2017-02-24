@@ -2,7 +2,6 @@
 
 source ~/.vim/config/plugins/airline.vim
 source ~/.vim/config/plugins/indentguides.vim
-source ~/.vim/config/plugins/minibufexpl.vim
 source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/syntastic.vim
 source ~/.vim/config/plugins/tagbar.vim
