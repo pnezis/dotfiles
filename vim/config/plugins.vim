@@ -10,7 +10,8 @@ Plugin 'gmarik/vundle'
 
 " color schemes & UI plugins
 Plugin 'tomasr/molokai'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/ZoomWin'
 Plugin 'ryanoasis/vim-webdevicons'
 
