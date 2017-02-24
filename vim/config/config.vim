@@ -31,6 +31,9 @@ if exists('+colorcolumn')
 endif
 set cursorline     " Highlight current line
 set showtabline=0  " Do not show tabline. We use minibufexpl
+
+" Mouse settings (for mac)
+set mouse=nicr
 " }}}
 
 " Searching "{{{
