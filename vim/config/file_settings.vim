@@ -20,3 +20,6 @@ au BufNewFile,BufRead *.js, *.html, *.css
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+" Treat *.md files as markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown

@@ -8,3 +8,4 @@ source ~/.vim/config/plugins/tagbar.vim
 source ~/.vim/config/plugins/ultisnips.vim
 source ~/.vim/config/plugins/vimwiki.vim
 source ~/.vim/config/plugins/zoomwin.vim
+source ~/.vim/config/plugins/vim-markdown.vim

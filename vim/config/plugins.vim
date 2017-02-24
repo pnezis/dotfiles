@@ -41,6 +41,7 @@ Plugin 'vim-scripts/vimwiki'
 " Specific language plugins
 Plugin 'vim-scripts/a.vim'
 Plugin 'python-mode/python-mode'
+Plugin 'tpope/vim-markdown'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
