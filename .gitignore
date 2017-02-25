@@ -8,7 +8,7 @@ vim/bundle/vim-airline
 vim/bundle/vim-airline-themes
 vim/bundle/vim-surround
 vim/bundle/vim-fugitive
-vim/bundle/vim-webdevicons
+vim/bundle/vim-devicons
 vim/bundle/nerdtree
 vim/bundle/vim-nerdtree-tabs
 vim/bundle/nerdtree-git-plugin
