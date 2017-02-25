@@ -26,3 +26,13 @@ function! HiInterestingWord(n)
     " Move back to our original location.
     normal! `z
 endfunction
+
+
+" Regular enter when invoked from the quickfix window but 'za' otherwise
+function! FoldingEnter()
+    if &buftype ==# 'quickfix'
+        execute "normal! \<CR>"
+    else
+        normal! za
+    endif
+endfunction

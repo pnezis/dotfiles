@@ -77,8 +77,4 @@ set listchars+=precedes:<       " The character to show in the last column
 
 set foldlevelstart=0
 
-" Use Enter to toggle folds.
-nnoremap <cr> za
-vnoremap <cr> za
-
 " }}}
