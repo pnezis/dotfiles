@@ -34,6 +34,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Raimondi/delimitMate'
+Plugin 'mileszs/ack.vim'
 
 " Other plugins
 Plugin 'vim-scripts/vimwiki'
