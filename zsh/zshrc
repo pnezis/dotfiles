@@ -13,7 +13,7 @@ ZSH_THEME="pnezis"
 DISABLE_AUTO_UPDATE="true"
 
 # oh-my-zsh plugins to load
-plugins=(git)
+plugins=(git docker)
 
 source $ZSH/oh-my-zsh.sh
 
