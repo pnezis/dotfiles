@@ -76,5 +76,7 @@ set listchars+=precedes:<       " The character to show in the last column
 " Folding {{{
 
 set foldlevelstart=0
-
+set foldmethod=manual
+set foldnestmax=10
+set foldlevel=2
 " }}}
