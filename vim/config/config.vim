@@ -80,3 +80,7 @@ set foldmethod=manual
 set foldnestmax=10
 set foldlevel=2
 " }}}
+
+" Clipboard {{{
+set clipboard=unnamed
+"  }}}
