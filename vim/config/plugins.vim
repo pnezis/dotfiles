@@ -44,7 +44,7 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'wavded/vim-stylus'
 " Plugin 'python-mode/python-mode'
 Plugin 'tpope/vim-markdown'
-Plugin 'solarnz/thrift.vim'
+Plugin 'sheerun/vim-polyglot'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
