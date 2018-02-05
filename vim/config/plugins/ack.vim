@@ -1,7 +1,7 @@
 " Use the silver searcher (ag) instead of ack
-if executable('ag')
-    let g:ackprg = 'ag --vimgrep'
-endif
+"if executable('ag')
+    "let g:ackprg = 'ag --vimgrep'
+"endif
 
 " Split rightward so as not to displace a left NERDTree
 let g:ack_mappings = {

@@ -28,13 +28,13 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'wincent/Command-T'
+Plugin 'junegunn/fzf.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Raimondi/delimitMate'
-Plugin 'mileszs/ack.vim'
+"Plugin 'mileszs/ack.vim'
 
 " Other plugins
 Plugin 'vim-scripts/vimwiki'
@@ -45,6 +45,7 @@ Plugin 'wavded/vim-stylus'
 " Plugin 'python-mode/python-mode'
 Plugin 'tpope/vim-markdown'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'fatih/vim-go'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
