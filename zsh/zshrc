@@ -78,6 +78,7 @@ if [ -f '/Users/pnezis/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '
 if [ -f '/Users/pnezis/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/pnezis/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 export GOPATH=$HOME/code/go
+export LC_ALL=en_US.UTF-8
 
 # Spark related configuraion
 export SPARK_HOME=/usr/local/Cellar/apache-spark/2.2.0/libexec
