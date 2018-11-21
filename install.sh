@@ -96,6 +96,7 @@ link_files $DIR/zsh/zshrc $HOME/.zshrc
 link_files $DIR/misc/dircolors.256dark $HOME/.dircolors
 link_files $DIR/tmux $HOME/.tmux
 link_files $DIR/tmux/tmux.conf $HOME/.tmux.conf
+link_files $DIR/tmux/tmux.conf.local $HOME/.tmux.conf.local
 
 echo "Updating repository..."
 git pull && git submodule init && git submodule update && git submodule status
