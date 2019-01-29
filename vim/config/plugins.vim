@@ -14,6 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/ZoomWin'
 Plugin 'mhinz/vim-startify'
+Plugin 'Yggdroot/indentLine'
 
 " Text manipulation plugins
 Plugin 'tpope/vim-surround' 
