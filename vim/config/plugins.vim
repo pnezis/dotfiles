@@ -13,6 +13,7 @@ Plugin 'tomasr/molokai'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/ZoomWin'
+Plugin 'mhinz/vim-startify'
 
 " Text manipulation plugins
 Plugin 'tpope/vim-surround' 
@@ -50,6 +51,7 @@ Plugin 'fatih/vim-go'
 " Web development plugins
 Plugin 'ap/vim-css-color'
 Plugin 'tristen/vim-sparkup'
+
 
 " This should load at the end in order to integrate with other plugins
 Plugin 'ryanoasis/vim-devicons'
