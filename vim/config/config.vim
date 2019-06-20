@@ -13,8 +13,8 @@ set backspace=2    " Fix backspase issues. Make it work like other apps.
 " Force VIM to use 256 color terminal in order to correctly support the
 " color scheme
 set t_Co=256
-set background=dark
-color molokai
+" set background=dark
+color onedark
 syntax on
 " }}}
 
@@ -32,6 +32,7 @@ endif
 set cursorline     " Highlight current line
 set showtabline=0  " Do not show tabline. We use minibufexpl
 set completeopt=menuone " Disable the preview option
+set relativenumber " Relative line numbers
 " Mouse settings (for mac)
 set mouse=nicr
 " }}}

@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/ZoomWin'
 Plugin 'mhinz/vim-startify'
 Plugin 'Yggdroot/indentLine'
+Plugin 'joshdick/onedark.vim'
 
 " Text manipulation plugins
 Plugin 'tpope/vim-surround' 
@@ -37,6 +38,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'honza/vim-snippets'
 Plugin 'Raimondi/delimitMate'
 "Plugin 'mileszs/ack.vim'
+"Plugin 'davidhalter/jedi-vim'
 
 " Other plugins
 Plugin 'vim-scripts/vimwiki'
@@ -45,9 +47,9 @@ Plugin 'vim-scripts/vimwiki'
 Plugin 'vim-scripts/a.vim'
 Plugin 'wavded/vim-stylus'
 " Plugin 'python-mode/python-mode'
-Plugin 'tpope/vim-markdown'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-markdown'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
