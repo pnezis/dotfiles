@@ -80,7 +80,15 @@ export LC_ALL=en_US.UTF-8
 
 # Spark related configuraion
 export SPARK_HOME=/usr/local/Cellar/apache-spark/2.2.0/libexec
-PATH="$GOPATH/bin:$SPARK_HOME/bin:$PATH"
+
+# Hadoop configuration
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+export HADOOP_VERSION=3.1.2
+export HADOOP_HOME=/usr/local/Cellar/hadoop/3.1.2/libexec
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop/
+
+
+PATH="$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$GOPATH/bin:$SPARK_HOME/bin:$PATH"
 
 
 # Alias ip to venv installed ipython
@@ -108,3 +116,7 @@ if [ -f '/Users/pnezis/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/pnezis/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/pnezis/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/pnezis/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+# aliases
+alias rmswp="find . -type f -name \"*.swp\" -exec rm -f {} \;"
