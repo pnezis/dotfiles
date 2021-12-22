@@ -1,0 +1,27 @@
+snippet eb "<%= %> render block" b
+<%= $1 %>
+endsnippet
+
+snippet ee "<% end %> end tag" b
+<% end %>$1
+endsnippet
+
+snippet efor "EEx for loop" b
+<%= for ${1:item} <- @$1s do %>
+	$2
+<% end %>
+endsnippet
+
+snippet eif "EEx if" b
+<%= if ${1:cond} do %>
+	$2
+<% end %>
+endsnippet
+
+snippet eife "EEx if-else" b
+<%= if ${1:cond} do %>
+	$2
+<% else %>
+	$3
+<% end %>
+endsnippet

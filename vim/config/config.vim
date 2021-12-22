@@ -14,7 +14,7 @@ set backspace=2    " Fix backspase issues. Make it work like other apps.
 " color scheme
 set t_Co=256
 " set background=dark
-color onedark
+silent! color onedark
 syntax on
 " }}}
 

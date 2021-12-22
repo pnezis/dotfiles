@@ -1,0 +1,75 @@
+snippet mod "create a new module" b
+defmodule ${1:Module} do
+	@moduledoc """
+	${2:Module Documentation}
+	"""
+
+	${3:code}
+end
+endsnippet
+
+# LiveView snippets
+
+snippet mount "LiveView mount function" b
+def mount(_params, _session, socket) do
+	socket = assign(socket, ${1:key}: ${2:value})
+	{:ok, socket}
+end
+endsnippet
+
+snippet rend "LiveView render function" b
+def render(assigns) do
+	~L"""
+	${0}
+	"""
+end
+endsnippet
+
+snippet he "LiveView handle_event function" b
+def handle_event(${1:event}, _, socket) do
+	socket = assign(socket, ${2:key}:${3:value})
+	{:noreply, socket}
+end
+endsnippet
+
+
+snippet hi "LiveView handle_info function" b
+def handle_info(${1:message}, socket) do
+	socket = assign(socket, ${2:key}:${3:value})
+	{:noreply, socket}
+end
+endsnippet
+
+snippet hp "LiveView handle_params function" b
+def handle_params(params, _url, socket) do
+	{:noreply, socket}
+end
+endsnippet
+
+snippet eb "<%= %> render block" b
+<%= $1 %>
+endsnippet
+
+snippet ee "<% end %> end tag" b
+<% end %>$1
+endsnippet
+
+snippet efor "EEx for loop" b
+<%= for ${1:item} <- @$1s do %>
+	$2
+<% end %>
+endsnippet
+
+snippet eif "EEx if" b
+<%= if ${1:cond} do %>
+	$2
+<% end %>
+endsnippet
+
+snippet eife "EEx if-else" b
+<%= if ${1:cond} do %>
+	$2
+<% else %>
+	$3
+<% end %>
+endsnippet

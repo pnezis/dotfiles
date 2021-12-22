@@ -1,71 +1,76 @@
 set nocompatible         " Disable vi-compatibility
 filetype off             " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugins')
 
 " let Vundle manage Vundle
 " required! 
-Plugin 'gmarik/vundle'
+Plug 'gmarik/vundle'
 
 " color schemes & UI plugins
-Plugin 'tomasr/molokai'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'vim-scripts/ZoomWin'
-Plugin 'mhinz/vim-startify'
-Plugin 'Yggdroot/indentLine'
-Plugin 'joshdick/onedark.vim'
+Plug 'tomasr/molokai'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-scripts/ZoomWin'
+Plug 'mhinz/vim-startify'
+Plug 'Yggdroot/indentLine'
+Plug 'joshdick/onedark.vim'
 
 " Text manipulation plugins
-Plugin 'tpope/vim-surround' 
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'godlygeek/tabular'
-Plugin 'easymotion/vim-easymotion'
-" Plugin 'Valloric/YouCompleteMe'
-Plugin 'neoclide/coc.nvim'
+Plug 'tpope/vim-surround' 
+Plug 'scrooloose/nerdcommenter'
+Plug 'godlygeek/tabular'
+Plug 'easymotion/vim-easymotion'
+" Plug 'Valloric/YouCompleteMe'
+" Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 " Version Control Systems integration plugins
-Plugin 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 
 " File/Code management plugins
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-Plugin 'majutsushi/tagbar'
-"Plugin 'scrooloose/syntastic'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'Raimondi/delimitMate'
-Plugin 'mattn/emmet-vim'
-"Plugin 'mileszs/ack.vim'
-"Plugin 'davidhalter/jedi-vim'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'majutsushi/tagbar'
+"Plug 'scrooloose/syntastic'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'Raimondi/delimitMate'
+Plug 'mattn/emmet-vim'
+"Plug 'mileszs/ack.vim'
+"Plug 'davidhalter/jedi-vim'
 
 " Other plugins
-Plugin 'vim-scripts/vimwiki'
+Plug 'vim-scripts/vimwiki'
 
 " Specific language plugins
-Plugin 'vim-scripts/a.vim'
-Plugin 'wavded/vim-stylus'
-Plugin 'slashmili/alchemist.vim'
-" Plugin 'python-mode/python-mode'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'fatih/vim-go'
-Plugin 'plasticboy/vim-markdown'
+Plug 'vim-scripts/a.vim'
+Plug 'wavded/vim-stylus'
+Plug 'slashmili/alchemist.vim'
+" Plug 'python-mode/python-mode'
+Plug 'sheerun/vim-polyglot'
+Plug 'fatih/vim-go'
+Plug 'plasticboy/vim-markdown'
 
 " Web development plugins
-Plugin 'ap/vim-css-color'
-Plugin 'tristen/vim-sparkup'
+Plug 'ap/vim-css-color'
+Plug 'tristen/vim-sparkup'
 
 
 " This should load at the end in order to integrate with other plugins
-Plugin 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 
 " Deoplete
-"Plugin 'Shougo/deoplete.nvim'
-"Plugin 'roxma/nvim-yarp'
-"Plugin 'roxma/vim-hug-neovim-rpc'
+"Plug 'Shougo/deoplete.nvim'
+"Plug 'roxma/nvim-yarp'
+"Plug 'roxma/vim-hug-neovim-rpc'
 
-call vundle#end()
+call plug#end()
