@@ -77,3 +77,7 @@ hi def InterestingWord6 guifg=#000000 ctermfg=16 guibg=#ff2c4b ctermbg=195
 " Use Enter to toggle folds.
 nnoremap <CR> :call FoldingEnter()<CR>
 vnoremap <CR> :call FoldingEnter()<CR>
+
+" Quick edit and reload of vim config
+nnoremap <leader>ve :e $MYVIMRC<CR>
+nnoremap <leader>vr :source $MYVIMRC<CR>

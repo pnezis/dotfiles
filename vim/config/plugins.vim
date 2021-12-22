@@ -22,7 +22,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'godlygeek/tabular'
 Plugin 'easymotion/vim-easymotion'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
+Plugin 'neoclide/coc.nvim'
 
 " Version Control Systems integration plugins
 Plugin 'tpope/vim-fugitive'
@@ -31,12 +32,14 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'majutsushi/tagbar'
 "Plugin 'scrooloose/syntastic'
-"Plugin 'SirVer/ultisnips'
+Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Raimondi/delimitMate'
+Plugin 'mattn/emmet-vim'
 "Plugin 'mileszs/ack.vim'
 "Plugin 'davidhalter/jedi-vim'
 
@@ -46,10 +49,11 @@ Plugin 'vim-scripts/vimwiki'
 " Specific language plugins
 Plugin 'vim-scripts/a.vim'
 Plugin 'wavded/vim-stylus'
+Plugin 'slashmili/alchemist.vim'
 " Plugin 'python-mode/python-mode'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'fatih/vim-go'
-Plugin 'tpope/vim-markdown'
+Plugin 'plasticboy/vim-markdown'
 
 " Web development plugins
 Plugin 'ap/vim-css-color'
@@ -58,5 +62,10 @@ Plugin 'tristen/vim-sparkup'
 
 " This should load at the end in order to integrate with other plugins
 Plugin 'ryanoasis/vim-devicons'
+
+" Deoplete
+"Plugin 'Shougo/deoplete.nvim'
+"Plugin 'roxma/nvim-yarp'
+"Plugin 'roxma/vim-hug-neovim-rpc'
 
 call vundle#end()

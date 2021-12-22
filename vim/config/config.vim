@@ -34,7 +34,9 @@ set showtabline=0  " Do not show tabline. We use minibufexpl
 set completeopt=menuone " Disable the preview option
 set relativenumber " Relative line numbers
 " Mouse settings (for mac)
-set ttymouse=xterm2
+if !has('nvim')
+    set ttymouse=xterm2
+endif
 set mouse=a
 " }}}
 
